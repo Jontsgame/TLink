@@ -2,3 +2,13 @@ Before starting type this in the console of your Raspberry:
 
 sudo apt update
 sudo apt install wireless-tools wpasupplicant dhcpcd5
+
+
+Type this to start, otherway it don't work:
+
+sudo python3 wlan_gui.py
+
+
+Make sure wlan0 is the correct interface. If necessary, check with:
+
+iw dev
