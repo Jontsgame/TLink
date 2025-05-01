@@ -1,0 +1,4 @@
+Before starting type this in the console of your Raspberry: 
+
+sudo apt update
+sudo apt install wireless-tools wpasupplicant dhcpcd5
